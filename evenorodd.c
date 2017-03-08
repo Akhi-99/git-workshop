@@ -16,7 +16,7 @@ int main(){
     scanf("%d",&number);
 
 	// HERE IS THE BUG, number % 2 == 0 means even
-    if(number % 2 != 0)
+    if(number % 2 == 0)
          printf("%d is even number.",number);
     else
          printf("%d is odd number.",number);
